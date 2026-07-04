@@ -1,0 +1,43 @@
+RESUMEN DE REQUISITOS: DESAFÍO DE DEEP LEARNING - PRESENTACIÓN FINAL
+
+--- INFORMACIÓN GENERAL ---
+Evento: Evaluación Presentación Oral Final
+Fecha Presentación: Lunes 01-12-2025
+Fecha Entrega Notebook: Lunes 01-12-2025 07:59 AM (Vía CANVAS)
+Ponderación Presentación: 30%
+Ponderación Notebook: 10%
+Tiempo Máximo Presentación: 20 minutos
+Política IA: Obligatorio declarar prompts/herramientas y respaldar autoría
+
+--- ESTRUCTURA DE LA PRESENTACIÓN (Puntos 1-10) ---
+1. Portada y pitch (≤30 s): Título, equipo, dataset, problema real y "frase de valor".
+2. Contexto, objetivos e hipótesis (1 min): Marco del dominio, KPI, restricciones, supuestos y ejemplos de datos.
+3. Datos y gobernanza (1-1.5 min): Fuentes, tamaño, split train/valid/test, sesgos, ética y control de versiones.
+4. Metodología y diseño experimental (2-2.5 min): Pipeline, modelos (arquitecturas, loss, opt), protocolo de validación y baselines.
+5. Resultados y comparación (3-4 min): Métricas finales, comparación con baseline, curvas de entrenamiento y análisis de significancia.
+6. Interpretabilidad y análisis de errores (1-1.5 min): Qué aprendió el modelo (Grad-CAM, SHAP), ejemplos de aciertos/fallos.
+7. Robustez y riesgos (≤1 min): Estabilidad, sensibilidad a hiperparámetros y limitaciones explícitas.
+8. Conclusiones y recomendaciones (1 min): Lecciones, trade-offs, siguientes pasos y despliegue.
+9. Bibliografía y recursos (≤20 s): Fuentes y enlace al repositorio.
+10. Evidencias de autoría: Declaración de herramientas IA utilizadas.
+
+--- ESTRUCTURA DEL JUPYTER NOTEBOOK ---
+1. Portada y setup: Descripción, versión de Python, librerías y seed fijada.
+2. Carga de datos: Ruta clara, chequeos de integridad y diccionario de datos.
+3. EDA mínimo: Distribuciones, missing values, desbalance y fugas.
+4. Preprocesamiento: Celdas reproductibles (imputación, escalado, encoding).
+5. Modelado: Arquitecturas, pérdidas, optimizadores, callbacks.
+6. Diseño experimental: Protocolo (CV/hold-out), control de semillas, registro de ejecuciones.
+7. Evaluación y comparación: Métricas con dispersión, baseline vs modelos, tablas/figuras.
+8. Interpretabilidad: Ejemplos, explicaciones (Grad-CAM/SHAP), análisis por subgrupos.
+9. Conclusiones: Síntesis técnica, límites, trabajo futuro.
+10. Reproducibilidad: Celda "Run-all" funcional, carga de modelos, requirements.txt.
+11. Material complementario: Modelos pre-entrenados o archivos de curvas guardadas.
+
+--- CRITERIOS DE EVALUACIÓN (RÚBRICA) ---
+A. Contenido Metodología y resultados (30%): Resultados completos, comparaciones justas, figuras legibles
+B1. Comunicación & tiempo (20%): Historia clara, tiempo adecuado, una idea por slide.
+B2. Defensa & Preguntas (35%): Responde con evidencia propia, adapta métricas, explica elecciones.
+B3. Autenticidad & propiedad (15%): Declara uso de IA, muestra seeds/logs/commits, coherencia notebook-presentación.
+
+

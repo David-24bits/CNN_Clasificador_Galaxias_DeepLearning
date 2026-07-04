@@ -1,0 +1,36 @@
+# Deep Galaxias - Clasificador de Galaxias con Deep Learning
+# Proyecto: Universidad Tecnológica Metropolitana (UTEM)
+# Fecha: 30 de noviembre de 2025
+
+# === FRAMEWORKS DE DEEP LEARNING ===
+torch==2.9.1
+torchvision==0.24.1
+torchaudio==2.9.1
+
+# === INTERFAZ WEB Y VISUALIZACIÓN ===
+streamlit==1.51.0
+plotly==6.5.0
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# === PROCESAMIENTO DE DATOS ===
+numpy==2.3.5
+pandas==2.3.3
+h5py==3.15.1
+pillow==12.0.0
+
+# === MACHINE LEARNING Y ANÁLISIS ===
+scikit-learn==1.7.2
+scipy==1.16.3
+
+# === UTILIDADES Y PROGRESO ===
+tqdm==4.67.1
+
+# === DEPENDENCIAS ADICIONALES PARA STREAMLIT ===
+altair==5.5.0
+pydeck==0.9.1
+watchdog==6.0.0
+
+# === DEPENDENCIAS DEL SISTEMA ===
+requests==2.32.5
+certifi==2025.11.12
